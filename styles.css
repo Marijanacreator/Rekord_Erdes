@@ -167,3 +167,7 @@ header.is-scrolled{background:rgba(241,240,235,.68)}
 /* Desno poravnanje editorial naslova priče. */
 #istorija .history-heading h2{text-align:right;justify-self:end;width:100%}
 
+
+/* Levo poravnanje uvoda Znanje i iskustvo. */
+#o-nama .section-heading{margin-left:0;margin-right:auto;text-align:left}
+
