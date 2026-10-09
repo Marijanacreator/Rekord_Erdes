@@ -153,3 +153,17 @@ header.is-scrolled{background:rgba(241,240,235,.68)}
 /* Sažeta mobilna navigacija i poravnati hero linkovi. */
 @media(max-width:800px){header .logo>span:not(.mark){display:none}header #menu{width:44px;height:44px;padding:0;align-items:center;justify-content:center;font-size:25px;line-height:1}.art-hero .actions{flex-direction:column;align-items:stretch;width:215px;max-width:100%;gap:12px}.art-hero .button{width:100%;min-width:0}.art-hero .editorial-link{width:100%;justify-content:center}.art-hero .eyebrow,.art-hero h1,.art-hero-bottom{margin-left:0}}
 
+
+/* Oznaka priče pripada uvodnom pasusu u levoj koloni. */
+#istorija>.wrap>.eyebrow{margin-left:0;text-align:left;width:auto;max-width:none}
+
+
+/* Editorial naglasak na trajanju poslovanja. */
+#istorija .history-years{display:block;font-size:clamp(110px,13vw,180px);line-height:.9;letter-spacing:-.075em;font-weight:500}
+#istorija .history-years-caption{display:block;margin-top:20px}
+@media(max-width:800px){#istorija .history-years{font-size:clamp(96px,20vw,140px)}#istorija .history-years-caption{margin-top:16px}}
+
+
+/* Desno poravnanje editorial naslova priče. */
+#istorija .history-heading h2{text-align:right;justify-self:end;width:100%}
+
