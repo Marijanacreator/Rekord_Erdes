@@ -149,3 +149,7 @@ header.is-scrolled{background:rgba(241,240,235,.68)}
 @media(max-width:1050px){.art-hero{min-height:810px}}
 @media(max-width:800px){.art-hero{margin-top:-100px;min-height:0}.art-hero-inner{padding-top:150px}}
 
+
+/* Sažeta mobilna navigacija i poravnati hero linkovi. */
+@media(max-width:800px){header .logo>span:not(.mark){display:none}header #menu{width:44px;height:44px;padding:0;align-items:center;justify-content:center;font-size:25px;line-height:1}.art-hero .actions{flex-direction:column;align-items:stretch;width:215px;max-width:100%;gap:12px}.art-hero .button{width:100%;min-width:0}.art-hero .editorial-link{width:100%;justify-content:center}.art-hero .eyebrow,.art-hero h1,.art-hero-bottom{margin-left:0}}
+
